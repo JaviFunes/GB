@@ -1,0 +1,344 @@
+body {
+  font-size: 16px;
+  font-family: Tahoma, sans-serif;
+}
+h1,h4{
+  color: white;
+  margin:0;
+  padding-bottom:5px;
+}
+
+h1{
+  font-size: 34px;
+}
+
+header{
+  padding:0 10px;
+  margin:0;
+}
+footer{
+  background-color: #61122F;
+  color:white;
+  font-size: 12px;
+}
+
+.container{
+  width:100%;
+  margin:0;
+  padding:0;
+}
+#logo{
+  background: url('/img/web/logoBoW2.png') no-repeat;
+  background-position: left;
+  height:139px;
+}
+#fotogrupomedio{
+  background: url('/img/web/heads.jpg') no-repeat;
+  background-position: center;
+  height:139px;
+}
+#tributo{
+  background: url('/img/web/tributoBoW.jpg') no-repeat;
+  background-position: right;
+  height:139px;
+}
+#fotogrupoabajo{
+  background: url('/img/web/heads.jpg') no-repeat;
+  background-position: center;
+  height:139px;
+  width:100%;
+}
+@media (max-width: 991px){
+  #logo, #tributo{
+    background-position: center;
+  }
+}
+@media (max-width: 767px){
+  #logo{
+    background: url('/img/web/logoWoB2.png') no-repeat;
+    background-position: center;
+  }
+  #tributo{
+    background: url('/img/web/tributoWoB.jpg') no-repeat;
+    background-position: center;
+  }
+  header{
+    background-color: black;
+  }
+}
+#cuerpo{
+  background-color: black;
+  background: url('/img/web/fondoscuro.jpg') no-repeat;
+  background-position: center;
+  overflow: hidden;
+  padding:0;
+  margin:0;
+}
+#cuerpobio{
+  background-color: black;
+  background: url('/img/web/bio2.jpg') repeat;
+  background-position: center;
+  overflow: hidden;
+  padding:0;
+  margin:0;
+}
+#cuerpovid{
+  background-color: black;
+  background: url('/img/web/sheabeat.jpg') repeat;
+  background-position: center;
+  overflow: hidden;
+  padding:0;
+  margin:0;
+}
+#cuerpofot{
+  background-color: black;
+  background: url('/img/web/fondofotos.png') repeat;
+  background-position: center;
+  overflow: hidden;
+  padding:0;
+  margin:0;
+}
+#cuerpo-contacta{
+  background-color: black;
+  background: url('/img/web/contacta.png') no-repeat;
+  background-position: fixed;
+  overflow: hidden;
+  padding:0;
+  margin:0;
+}
+#cuerpo-fanzone{
+  background-color: black;
+  background: url('/img/web/flan.png') no-repeat;
+  background-position: fixed;
+  overflow: hidden;
+  padding:0;
+  margin:0;
+}
+#titular{
+  background-color: black;
+  height:80px;
+  padding-top:10px;
+  margin-bottom:30px;
+}
+#principal{
+
+}
+#botones-de-eleccion{
+  position: relative;
+  border-radius: 30px;
+  border:2px solid white;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  margin: 0 auto 15px;
+}
+#botones-de-eleccion2{
+  position: relative;
+  border-radius: 30px;
+  border:2px solid white;
+  width: 600px;
+  height: 400px;
+  overflow: hidden;
+  margin: 0 auto 15px;
+}
+#botones-de-eleccion > span{
+  position:absolute;
+  width:100%;
+  bottom:0;
+  left:0;
+  background-color: gray;
+  font-size: 25px;
+  font-weight: 900;
+  text-decoration: none;
+  color:#FFF;
+  opacity: 0.6;
+}
+#botones-de-eleccion:hover{
+  box-shadow: 0 10px 50px 10px #cccccc;
+}
+
+#botones-de-eleccion:hover > span{
+  color:blue;
+  background-color: #CFCFCF;
+  opacity: 0.8;
+}
+
+/*Menú Lateral*/
+/*Parte 1: Fans y RRSS;*/
+
+#lateral{
+  margin:0;
+  padding: 0;
+  padding-right: 30px;
+}
+
+#contengo-boton-fan{
+  background: url('/img/web/fans4.jpg') no-repeat;
+  background-position: center;
+  padding: 30px 55px 30px 55px;
+  border: 2px solid white;
+}
+#contengo-boton-fan-vid{
+  background: url('/img/web/fans4.jpg') no-repeat;
+  background-position: center;
+  padding: 30px 55px 30px 55px;
+  border: 2px solid white;
+}
+@media (max-width: 767px){
+  #contengo-boton-fan{
+    padding: 30px 120px 30px 120px;
+    background: url('/img/web/fans5.jpg') no-repeat;
+    margin: 0;
+  }
+  #lateral{
+    padding: 0;
+  }
+}
+@media (max-width: 991px){
+  #contengo-boton-fan-vid{
+    padding: 30px 120px 30px 120px;
+    background: url('/img/web/fans5.jpg') repeat;
+    background-position: center;
+    margin: 0;
+  }
+  #lateral{
+    padding: 0;
+  }
+
+}
+#fan > h2:hover{
+  color:red;
+  box-shadow: 0 10px 50px 10px #cccccc;
+}
+#fan > h2{
+  padding-top: 7px;
+  width:100%;
+  height:40px;
+  font-size:20px;
+  text-decoration: none;
+  background-color: #88FFFF;
+  color:#000;
+  font-weight: 900;
+  border-radius: 7px;
+  border: 1px solid black;
+  opacity: .8;
+}
+#id1{
+ background-color: #FFFFFF;
+ opacity: 0.6;
+ margin-top: 15px;
+ border-radius: 7px;
+}
+
+.nota{
+  font-size: 1.2em;
+  font-weight: 600;
+  color:black;
+  margin:0;
+  margin-top: 20px;
+}
+#rrss{
+  color:#000;
+  border-radius: 5px;
+  border: 0;
+  padding:15px 0 15px 0;
+}
+
+#rrss>span{
+    text-decoration: none;
+}
+#rrss:hover{
+  color:blue;
+}
+
+#conciertos{
+  background: url('/img/carteles/carteles.jpg') repeat;
+  background-position: center;
+  width:100%;
+  height:200px;
+  overflow: hidden;
+  border:2px solid white;
+}
+
+#conciertos > h3{
+  margin:10px 30px;
+  color:white;
+  background-color: red;
+  border:2px solid white;
+}
+#conciertos > p{
+  margin:30px 80px;
+  color:black;
+  background-color: white;
+  border:2px solid black;
+}
+#bio{
+  color:white;
+  padding-left: 30px;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 617px){
+  #botones-de-eleccion2{
+    width: 400px;
+    height: 266px;
+  }
+    iframe{
+    width:315px;
+    height:177px;
+  }
+  #marcofoto > img {
+    width: 75%;
+    height:75%;
+  }
+}
+
+#televisor{
+  padding:20px 40px;
+}
+#televisor > iframe{
+    border:2px solid white;
+}
+#infocontacto{
+  height:500px;
+  width:450px;
+  padding-left: 30px;
+  font-size: 20px;
+}
+#textocontacto{
+  text-decoration:none;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+#marcofoto{
+  margin-left: 30px;
+  margin-top: 40px;
+  margin-bottom:40px;
+  padding-right: 0;
+}
+#marcofoto > img {
+  border:2px solid white;
+}
+#piedefoto{ 
+  color: white;
+}
+
+#infofan{
+  height:500px;
+  width:450px;
+  padding-left: 30px;
+  font-size: 20px;
+}
+#textofan{
+  text-decoration:none;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+#infofan > a{
+  color:red;
+  font-weight: 600;
+  padding-left: 120px;
+}
+#infofan > a:hover{
+  color:blue;
+}
