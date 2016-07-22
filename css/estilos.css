@@ -148,13 +148,13 @@ footer{
 #contengo-boton-fan{
   background: url('../img/web/fans4.jpg') no-repeat;
   background-position: center;
-  padding: 30px 55px 30px 55px;
+  padding: 30px 50px 30px 50px;
   border: 2px solid white;
 }
 #contengo-boton-fan-vid{
   background: url('../img/web/fans4.jpg') no-repeat;
   background-position: center;
-  padding: 30px 55px 30px 55px;
+  padding: 30px 50px 30px 50px;
   border: 2px solid white;
 }
 @media (max-width: 767px){
@@ -339,13 +339,13 @@ footer{
     height:90%;
   }
   #titular >h1{
-    font-size:25px;
+    font-size:23px;
   }
   #titular >h4{
-    font-size:14px;
+    font-size:12px;
   }
   #contengo-boton-fan, #contengo-boton-fan-vid{
-    padding: 30px 70px 30px 70px;
+    padding: 30px 60px 30px 60px;
   }
   #cuerpobio > h2 {
     text-align: center;
