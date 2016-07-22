@@ -28,7 +28,7 @@ footer{
   padding:0;
 }
 #logo{
-  background: url('../img/web/logoBoW2.png') no-repeat;
+  background: url('../img/web/LogoBoW2.png') no-repeat;
   background-position: left;
   height:139px;
 }
@@ -55,7 +55,7 @@ footer{
 }
 @media (max-width: 767px){
   #logo{
-    background: url('../img/web/logoWoB2.png') no-repeat;
+    background: url('../img/web/LogoWoB2.png') no-repeat;
     background-position: center;
   }
   #tributo{
