@@ -197,7 +197,7 @@ footer{
 @media (max-width: 991px){
   #contengo-boton-fan-vid{
     padding: 30px 120px 30px 120px;
-    background: url('./img/web/fans5.jpg') repeat;
+    background: url('../img/web/fans5.jpg') repeat;
     background-position: center;
     margin: 0;
   }
