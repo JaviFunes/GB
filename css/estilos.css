@@ -48,24 +48,6 @@ footer{
   height:139px;
   width:100%;
 }
-@media (max-width: 991px){
-  #logo, #tributo{
-    background-position: center;
-  }
-}
-@media (max-width: 767px){
-  #logo{
-    background: url('../img/web/LogoWoB2.png') no-repeat;
-    background-position: center;
-  }
-  #tributo{
-    background: url('../img/web/tributoWoB.jpg') no-repeat;
-    background-position: center;
-  }
-  header{
-    background-color: black;
-  }
-}
 #cuerpo{
   background-color: black;
   background: url('../img/web/fondoscuro.jpg') no-repeat;
@@ -101,28 +83,19 @@ footer{
 #cuerpo-contacta{
   background-color: black;
   background: url('../img/web/contacta.png') no-repeat;
-  background-position: fixed;
+  background-position: bottom;
   overflow: hidden;
   padding:0;
   margin:0;
 }
-#cuerpo-fanzone{
-  background-color: black;
-  background: url('../img/web/flan.png') no-repeat;
-  background-position: fixed;
-  overflow: hidden;
-  padding:0;
-  margin:0;
-}
+
 #titular{
   background-color: black;
   height:80px;
   padding-top:10px;
   margin-bottom:30px;
 }
-#principal{
 
-}
 #botones-de-eleccion{
   position: relative;
   border-radius: 30px;
@@ -204,7 +177,6 @@ footer{
   #lateral{
     padding: 0;
   }
-
 }
 #fan > h2:hover{
   color:red;
@@ -278,20 +250,6 @@ footer{
   margin-bottom: 40px;
 }
 
-@media (max-width: 617px){
-  #botones-de-eleccion2{
-    width: 400px;
-    height: 266px;
-  }
-    iframe{
-    width:315px;
-    height:177px;
-  }
-  #marcofoto > img {
-    width: 75%;
-    height:75%;
-  }
-}
 
 #televisor{
   padding:20px 40px;
@@ -300,8 +258,8 @@ footer{
     border:2px solid white;
 }
 #infocontacto{
-  height:500px;
-  width:450px;
+  height:816px;
+  width:90%;
   padding-left: 30px;
   font-size: 20px;
 }
@@ -324,10 +282,9 @@ footer{
 }
 
 #infofan{
-  height:500px;
-  width:450px;
-  padding-left: 30px;
+  padding: 0 30%;
   font-size: 20px;
+  text-align: center;
 }
 #textofan{
   text-decoration:none;
@@ -337,8 +294,72 @@ footer{
 #infofan > a{
   color:red;
   font-weight: 600;
-  padding-left: 120px;
 }
 #infofan > a:hover{
   color:blue;
+}
+
+@media (max-width: 991px){
+  #logo, #tributo{
+    background-position: center;
+  }
+}
+@media (max-width: 767px){
+  #logo{
+    background: url('../img/web/LogoWoB2.png') no-repeat;
+    background-position: center;
+  }
+  #tributo{
+    background: url('../img/web/tributoWoB.jpg') no-repeat;
+    background-position: center;
+  }
+  header{
+    background-color: black;
+  }
+  #infofan{
+  padding: 0 10%;
+  }
+}
+@media (max-width: 617px){
+
+ #botones-de-eleccion, #botones-de-eleccion > img{
+    width: 150px;
+    height: 150px;
+  }
+  #botones-de-eleccion2, #botones-de-eleccion2 > img{
+    width: 300px;
+    height: 200px;
+  }
+    iframe{
+    width:100%;
+    height:100%;
+  }
+  #marcofoto > img {
+    width: 90%;
+    height:90%;
+  }
+  #titular >h1{
+    font-size:25px;
+  }
+  #titular >h4{
+    font-size:14px;
+  }
+  #contengo-boton-fan, #contengo-boton-fan-vid{
+    padding: 30px 70px 30px 70px;
+  }
+  #cuerpobio > h2 {
+    text-align: center;
+    padding-left: 0;
+  }
+  #botonbio, #bio{
+    width:100%;
+  }
+}
+@media (min-width: 768px){
+  #infocontacto{
+    height:816px;
+    width:100%;
+    padding: 0 15%;
+    font-size: 20px;
+  }
 }
