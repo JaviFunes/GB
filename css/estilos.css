@@ -28,22 +28,22 @@ footer{
   padding:0;
 }
 #logo{
-  background: url('./img/web/logoBoW2.png') no-repeat;
+  background: url('../img/web/logoBoW2.png') no-repeat;
   background-position: left;
   height:139px;
 }
 #fotogrupomedio{
-  background: url('./img/web/heads.jpg') no-repeat;
+  background: url('../img/web/heads.jpg') no-repeat;
   background-position: center;
   height:139px;
 }
 #tributo{
-  background: url('./img/web/tributoBoW.jpg') no-repeat;
+  background: url('../img/web/tributoBoW.jpg') no-repeat;
   background-position: right;
   height:139px;
 }
 #fotogrupoabajo{
-  background: url('./img/web/heads.jpg') no-repeat;
+  background: url('../img/web/heads.jpg') no-repeat;
   background-position: center;
   height:139px;
   width:100%;
@@ -55,11 +55,11 @@ footer{
 }
 @media (max-width: 767px){
   #logo{
-    background: url('./img/web/logoWoB2.png') no-repeat;
+    background: url('../img/web/logoWoB2.png') no-repeat;
     background-position: center;
   }
   #tributo{
-    background: url('./img/web/tributoWoB.jpg') no-repeat;
+    background: url('../img/web/tributoWoB.jpg') no-repeat;
     background-position: center;
   }
   header{
@@ -68,7 +68,7 @@ footer{
 }
 #cuerpo{
   background-color: black;
-  background: url('./img/web/fondoscuro.jpg') no-repeat;
+  background: url('../img/web/fondoscuro.jpg') no-repeat;
   background-position: center;
   overflow: hidden;
   padding:0;
@@ -76,7 +76,7 @@ footer{
 }
 #cuerpobio{
   background-color: black;
-  background: url('./img/web/bio2.jpg') repeat;
+  background: url('../img/web/bio2.jpg') repeat;
   background-position: center;
   overflow: hidden;
   padding:0;
@@ -84,7 +84,7 @@ footer{
 }
 #cuerpovid{
   background-color: black;
-  background: url('./img/web/sheabeat.jpg') repeat;
+  background: url('../img/web/sheabeat.jpg') repeat;
   background-position: center;
   overflow: hidden;
   padding:0;
@@ -92,7 +92,7 @@ footer{
 }
 #cuerpofot{
   background-color: black;
-  background: url('./img/web/fondofotos.png') repeat;
+  background: url('../img/web/fondofotos.png') repeat;
   background-position: center;
   overflow: hidden;
   padding:0;
@@ -100,7 +100,7 @@ footer{
 }
 #cuerpo-contacta{
   background-color: black;
-  background: url('./img/web/contacta.png') no-repeat;
+  background: url('../img/web/contacta.png') no-repeat;
   background-position: fixed;
   overflow: hidden;
   padding:0;
@@ -108,7 +108,7 @@ footer{
 }
 #cuerpo-fanzone{
   background-color: black;
-  background: url('./img/web/flan.png') no-repeat;
+  background: url('../img/web/flan.png') no-repeat;
   background-position: fixed;
   overflow: hidden;
   padding:0;
@@ -173,13 +173,13 @@ footer{
 }
 
 #contengo-boton-fan{
-  background: url('./img/web/fans4.jpg') no-repeat;
+  background: url('../img/web/fans4.jpg') no-repeat;
   background-position: center;
   padding: 30px 55px 30px 55px;
   border: 2px solid white;
 }
 #contengo-boton-fan-vid{
-  background: url('./img/web/fans4.jpg') no-repeat;
+  background: url('../img/web/fans4.jpg') no-repeat;
   background-position: center;
   padding: 30px 55px 30px 55px;
   border: 2px solid white;
@@ -187,7 +187,7 @@ footer{
 @media (max-width: 767px){
   #contengo-boton-fan{
     padding: 30px 120px 30px 120px;
-    background: url('./img/web/fans5.jpg') no-repeat;
+    background: url('../img/web/fans5.jpg') no-repeat;
     margin: 0;
   }
   #lateral{
@@ -252,7 +252,7 @@ footer{
 }
 
 #conciertos{
-  background: url('./img/carteles/carteles.jpg') repeat;
+  background: url('../img/carteles/carteles.jpg') repeat;
   background-position: center;
   width:100%;
   height:200px;
